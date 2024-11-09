@@ -1,0 +1,134 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .builder {
+    display: flex;
+    gap: 40px;
+  }
+  
+  /* Form Styling */
+  form {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form section {
+    margin-bottom: 20px;
+  }
+  
+  form h2 {
+    margin-bottom: 10px;
+    color: #5a8ce7;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .button {
+    padding: 10px 15px;
+    background-color: #5a8ce7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #5a8ce7;
+  }
+  
+  /* Resume Preview Styling */
+  #resume-preview {
+    flex: 1;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #resume-preview h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #resume-preview h3 {
+    margin-top: 20px;
+    color: #5a8ce7;
+  }
+  
+  #resume-preview p {
+    margin-bottom: 10px;
+  }
+  
+  #resume-preview a {
+    color: #5a8ce7;
+    text-decoration: none;
+  }
+  
+  #resume-preview a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .builder {
+      flex-direction: column;
+    }
+  }
+  
